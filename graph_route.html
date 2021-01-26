@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_10d947d3487e4856aef7f1bc4fcf2532 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_10d947d3487e4856aef7f1bc4fcf2532" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_10d947d3487e4856aef7f1bc4fcf2532 = L.map(
+                                  'map_10d947d3487e4856aef7f1bc4fcf2532',
+                                  {center: [51.4763,-0.9746],
+                                  zoom: 14,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a910e12ac92b4c93912223fe096805c1 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 14,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_10d947d3487e4856aef7f1bc4fcf2532);
+        
+    
+
+            var marker_b77ddfae0df9406fada2f6b83b8b63ad = L.marker(
+                [51.481239,-0.975364],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10d947d3487e4856aef7f1bc4fcf2532);
+            
+    
+
+                var icon_3ab95173be87483aad82458422ff9822 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b77ddfae0df9406fada2f6b83b8b63ad.setIcon(icon_3ab95173be87483aad82458422ff9822);
+            
+    
+            var popup_b84cbe52d1524e3aa1fa10490fe48e40 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7ac7a5235e3429c85260212bd0955ee = $('<div id="html_f7ac7a5235e3429c85260212bd0955ee" style="width: 100.0%; height: 100.0%;">Start: Highdown School, Surley Row, Emmer Green, Reading, England, RG4 8NB, United Kingdom</div>')[0];
+                popup_b84cbe52d1524e3aa1fa10490fe48e40.setContent(html_f7ac7a5235e3429c85260212bd0955ee);
+            
+
+            marker_b77ddfae0df9406fada2f6b83b8b63ad.bindPopup(popup_b84cbe52d1524e3aa1fa10490fe48e40);
+
+            
+        
+    
+
+            var marker_33a7109cd3554c0f85e459728d940617 = L.marker(
+                [51.467193,-0.973694],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10d947d3487e4856aef7f1bc4fcf2532);
+            
+    
+
+                var icon_94f607193b7d4e629d4adcc7b4706137 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33a7109cd3554c0f85e459728d940617.setIcon(icon_94f607193b7d4e629d4adcc7b4706137);
+            
+    
+            var popup_09b7e85537774ebc84f3be6f62c40acf = L.popup({maxWidth: '300'});
+
+            
+                var html_03f01e56e70e4570b526ecc4cde44865 = $('<div id="html_03f01e56e70e4570b526ecc4cde44865" style="width: 100.0%; height: 100.0%;">Destination: Waitrose, Church Street, Caversham, Reading, England, RG4 7SF, United Kingdom</div>')[0];
+                popup_09b7e85537774ebc84f3be6f62c40acf.setContent(html_03f01e56e70e4570b526ecc4cde44865);
+            
+
+            marker_33a7109cd3554c0f85e459728d940617.bindPopup(popup_09b7e85537774ebc84f3be6f62c40acf);
+
+            
+        
+    
+                var poly_line_07797f84f8a7444ab69a1dce4a908a69 = L.polyline(
+                    [[51.4795139, -0.9766851], [51.4794071, -0.9767887], [51.4793779, -0.9768373], [51.4793132, -0.9768438], [51.479242, -0.9767693], [51.4790736, -0.9764456], [51.4789538, -0.9762902], [51.4788244, -0.9761736], [51.4787013, -0.9759697], [51.4785848, -0.9756945], [51.4785621, -0.975455], [51.4785103, -0.9752898], [51.4784877, -0.9751247], [51.4784788, -0.9750941], [51.4784027, -0.9750802], [51.4779858, -0.97516], [51.4779078, -0.9751672], [51.4778069, -0.9751779], [51.4776376, -0.9752453], [51.4774436, -0.9752894], [51.4773775, -0.9752949], [51.4770514, -0.9751931], [51.4767638, -0.9751394], [51.4765409, -0.9750054], [51.4762687, -0.9747954], [51.4761896, -0.9750354], [51.4760429, -0.9753413], [51.4757373, -0.9749197], [51.4753444, -0.9745741], [51.47489, -0.9742839], [51.474718, -0.9742119], [51.4745499, -0.9741522], [51.4742289, -0.9741868], [51.4739915, -0.9742644], [51.4737037, -0.9743939], [51.4734351, -0.9745604], [51.4732602, -0.9746719], [51.4730786, -0.9747567], [51.4727964, -0.9748054], [51.4724942, -0.9747898], [51.4719506, -0.9746429], [51.4714422, -0.9741501], [51.4711814, -0.9739197], [51.4710459, -0.973814], [51.4709172, -0.9737511], [51.470722, -0.9737078], [51.4705335, -0.9736805], [51.4701297, -0.9736261], [51.4697954, -0.9736974], [51.4691605, -0.9739277], [51.4689201, -0.9740279], [51.468622, -0.9741353], [51.4685567, -0.9732368], [51.4685499, -0.9731298], [51.4685308, -0.9728507], [51.4685109, -0.9725466], [51.4685045, -0.9724839], [51.4684834, -0.9724228], [51.4682917, -0.9720978], [51.4681281, -0.9723268], [51.4680246, -0.9724533], [51.4678469, -0.9726597], [51.4677037, -0.9727951], [51.4675853, -0.9729281], [51.4675076, -0.9730423], [51.467499, -0.9731933], [51.4675144, -0.9734684], [51.4675554, -0.9737946], [51.4668809, -0.9740078], [51.4668763, -0.9739707], [51.4668501, -0.9737435]],
+                    {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 4
+}).addTo(map_10d947d3487e4856aef7f1bc4fcf2532);
+            
+    
+            var popup_42643f8cdff44cf9aa8be59240386b21 = L.popup({maxWidth: '300'});
+
+            
+                var html_f30a4b3f3d424dd38b5a8ae6aee892cb = $('<div id="html_f30a4b3f3d424dd38b5a8ae6aee892cb" style="width: 100.0%; height: 100.0%;">Length: 1.1 miles Time: 0.4 hours</div>')[0];
+                popup_42643f8cdff44cf9aa8be59240386b21.setContent(html_f30a4b3f3d424dd38b5a8ae6aee892cb);
+            
+
+            poly_line_07797f84f8a7444ab69a1dce4a908a69.bindPopup(popup_42643f8cdff44cf9aa8be59240386b21);
+
+            
+        
+</script>
