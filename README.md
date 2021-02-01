@@ -14,7 +14,7 @@ The information will be visually represented to the user clearly by highlighting
 
 
 ## Flow of the Whole System
-Is Start Button Pressed? --> Input: Start_Address --> Get geocode and validate --> Input: End_Address --> Get geocode and validate --> Find nearest nodes --> Calculate shortest route --> Show route on interactive map 
+![plot](./images/flowchart.png)
 
 ## Downloading and Cleaning the Network
 The map is taken from the OpenStreetMap API. The roads are represented as a network and is downloaded from https://www.openstreetmap.org/export and saved as map.osm.
