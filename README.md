@@ -49,11 +49,11 @@ From this A* algorithm was the clear winner and so is what is used in this proje
 
 ## Interactive Map
 The Folium library includes an interactive map as a Leaflet.js map. When this is combined with PyQT, the map can be opened in a GUI. When the shortest route has been calculated, this route will be placed on a Leaflet.js map and saved to a webpage via Folium. Then this webpage is displayed on a GUI with PyQT.
-
+![plot](./images/map_route.png)
 
 ## User Interface
 The user interface is also implemented using PyQT. There are two inputs which allow teh user to select a source and destination address. These inputs have accompanying drop down menus with autocomplete suggestions based on what is already typed into the textbox. Then below there is button to start the route finding calculation and also a quit button to exit the application. In addition there is a checkbox that allows the user to avoid high crime areas.
-
+![plot](./images/user_interface.png)
 
 ## Finding the Nearest Node
 The address typed in by the user has a specific geo-coordinate. However these may not be included in the geo-coordinates of the nodes of the network. So the nearest node to the address will have to be found. The library scipy includes a very efficient algorithm using KDTrees to achieve this in O (log n) time.
@@ -65,3 +65,4 @@ The user can input addresses into the two inputs of the GUI. A dropdown menu sho
 
 ## Avoiding High Crime Areas
 Local crime data was donwloaded from http://www.ukcrimestats.com/Police_Force/Thames_Valley_Police. If the avoid high crime tickbox was checked, then a choropleth interactive map was displayed with darker areas showing areas of higher crime rates. Then the shortest route is shown which actively avoids the darker areas of the map.
+![plot](./images/crime_routes.png)
