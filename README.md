@@ -49,11 +49,11 @@ From this A* algorithm was the clear winner and so is what is used in this proje
 
 
 ## Interactive Map
-The Folium library includes an interactive map as a Leaflet.js map. When this is combined with PyQT, the map can be opened in a GUI. When the shortest route has been calculated, this route will be placed on a Leaflet.js map and saved to a webpage via Folium. Then this webpage is displayed on a GUI with PyQT.
+The Folium library includes an interactive map as a Leaflet.js map. When this is combined with PyQT, the map can be opened in a GUI. When the shortest route has been calculated, this route will be placed on a Leaflet.js map and saved to a webpage via Folium. Then this webpage is displayed on a GUI with PyQT.  
 ![plot](./images/map_route.png)
 
 ## User Interface
-The user interface is also implemented using PyQT. There are two inputs which allow teh user to select a source and destination address. These inputs have accompanying drop down menus with autocomplete suggestions based on what is already typed into the textbox. Then below there is button to start the route finding calculation and also a quit button to exit the application. In addition there is a checkbox that allows the user to avoid high crime areas.
+The user interface is also implemented using PyQT. There are two inputs which allow teh user to select a source and destination address. These inputs have accompanying drop down menus with autocomplete suggestions based on what is already typed into the textbox. Then below there is button to start the route finding calculation and also a quit button to exit the application. In addition there is a checkbox that allows the user to avoid high crime areas.  
 ![plot](./images/user_interface.png)
 
 ## Finding the Nearest Node
