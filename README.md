@@ -27,17 +27,17 @@ In this project, four shortest path algorithms are tested: Bellman-Ford, Dijkstr
 Algorithm | Test | Time/seconds
 ----------|------|-------------
 Bellman-Ford | 1 | 55.583199977874756
- 	| 2 | 63.00259971618652
- 	| 3 | 61.93179988861084
+"	| 2 | 63.00259971618652
+"	| 3 | 61.93179988861084
 Dijkstra | 1 | 3.0137999057769775
- 	| 2 | 2.9951999187469482
- 	| 3 | 3.0576000213623047
+"	| 2 | 2.9951999187469482
+"	| 3 | 3.0576000213623047
 Dijkstra with Priority Queue | 1 | 0.015599966049194336
- 	| 2 | 0.031199932098388672
- 	| 3 | 0.015600204467773438
+"	| 2 | 0.031199932098388672
+"	| 3 | 0.015600204467773438
 A*	| 1 | 0.031200170516967773
- 	| 2 | 0.015599966049194336
- 	| 3 | 0.015599966049194336
+"	| 2 | 0.015599966049194336
+"	| 3 | 0.015599966049194336
 
 It is obvious from these that Dijkstra with PQ and A* algorithms perform the best. An addition more intensive test was performed on these two in order to find which is best between them.
 Algorithm | Time
